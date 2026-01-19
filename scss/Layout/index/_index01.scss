@@ -1,0 +1,166 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+div#pageTop {
+    position: relative;
+    z-index: -3;
+}
+
+.indexMain {
+    background: url(../img/indexMainPc.png) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -2;
+}
+
+.indexMainFx {}
+
+.picIndexMainLxn {
+    position: sticky;
+    top: 0;
+    @include mi.ontenerWidth(1200, 825);
+    height: 100vh;
+
+    img {
+        width: auto;
+        max-width: unset;
+        height: 65.55555555555556vh;
+    }
+}
+
+.picIndexMainFx {
+    @include mi.ontenerWidth(825, 802.14);
+    margin: auto;
+    height: 100vh;
+}
+
+.spmainLxn {
+    @include mi.ontenerWidth(1200, 375);
+    position: relative;
+
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+
+.spmainLxnTop {
+    @include mi.ontenerWidth(1200, 375);
+    position: relative;
+
+    @include mi.mq(sp) {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+//
+.btnIndexMain {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.btnIndexMainWap {}
+
+.spmainLxnFx {
+    @include mi.ontenerWidth(1200, 375);
+    margin: 0 0 0 auto;
+
+    @include mi.mq(sp) {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.menuSpBox {
+    @include mi.ontenerWidth(375, 355);
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+    }
+}
+
+.btnSpMenu {
+    @include mi.ontenerWidth(375, 326);
+    margin: auto;
+
+    img {
+        width: 100%;
+    }
+}
+
+.btnSpMenu.off {
+    .off {
+        display: block;
+    }
+
+    .on {
+        display: none;
+    }
+}
+
+.btnSpMenu.on {
+    .off {
+        display: none;
+    }
+
+    .on {
+        display: block;
+    }
+}
+
+.menuSpBoxNav {
+    background: #fff;
+    width: 100%;
+    @include mi.paddingPercent(355, 21, 0, 25, 0);
+    display: none;
+    transition-duration: 0.5s;
+}
+
+.ulMenuSpBoxNav {
+    @include mi.ontenerWidth(355, 335);
+    margin: auto;
+}
+
+.liMenuSpBoxNav {
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(300, 17, auto, 0, auto);
+    }
+}
+
+.btnIndexMainFx {
+    @include mi.marginPercent(375, 12, auto, 0, auto);
+
+    a {
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.liBtnIndexMain {
+    @include mi.ontenerWidth(375, 165);
+}
+
+.liBtnIndexMain03 {
+    @include mi.ontenerWidth(375, 45);
+}
