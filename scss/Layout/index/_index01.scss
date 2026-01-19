@@ -41,14 +41,24 @@ div#pageTop {
 }
 
 .spmainLxn {
+    @include mi.paddingPercent(1200, 10, 0, 10, 0);
     @include mi.ontenerWidth(1200, 375);
     position: relative;
-
+    background: linear-gradient(90deg, rgba(255, 98, 125, 0.79) 0%, rgba(251, 117, 150, 0.79) 100%);
     @include mi.mq(sp) {
+         @include mi.paddingPercent(375, 10, 0, 10, 0);
         width: 100%;
     }
 }
-
+.fvWap{
+    background: url(../img/bgFvWap.png) no-repeat center top;
+    background-size: 100% auto;
+    aspect-ratio: 375/570;
+}
+.fv{
+    @include mi.ontenerWidth(375 , 289);
+    margin: 0 auto;
+}
 .spmainLxnTop {
     @include mi.ontenerWidth(1200, 375);
     position: relative;
@@ -94,11 +104,19 @@ div#pageTop {
         width: 100%;
     }
 }
-
-.btnSpMenu {
-    @include mi.ontenerWidth(375, 326);
+.btnSpMenuWap{
+    @include mi.ontenerWidth(375, 355);
+    @include mi.paddingPercent(375, 18, 0, 18, 0);
     margin: auto;
-
+    border-radius: 5px 5px 0 0;
+    background: #fff;
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+.btnSpMenu {
+    @include mi.ontenerWidth(355, 326);
+    margin: auto;
     img {
         width: 100%;
     }
@@ -123,18 +141,23 @@ div#pageTop {
         display: block;
     }
 }
-
+.brdmenuSpBoxNav{
+    background:#DC0B28;
+    margin: auto;
+    height: 1px;
+    @include mi.ontenerWidth(355 , 325 );
+}
 .menuSpBoxNav {
-    background: #fff;
     width: 100%;
-    @include mi.paddingPercent(355, 21, 0, 25, 0);
+    background: #fff;
+    @include mi.paddingPercent(355, 0, 0, 25, 0);
     display: none;
     transition-duration: 0.5s;
 }
 
 .ulMenuSpBoxNav {
-    @include mi.ontenerWidth(355, 335);
-    margin: auto;
+@include mi.marginPercent(355, 25,auto ,0 ,auto );
+@include mi.ontenerWidth(355 , 295 );
 }
 
 .liMenuSpBoxNav {

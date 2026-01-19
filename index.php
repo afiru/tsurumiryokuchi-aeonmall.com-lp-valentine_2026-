@@ -14,10 +14,11 @@ require_once('config.php'); ?>
         </div>
 
         <div class="spmainLxn spmainLxnTop">
-            <figure class="fv">
-                <img loading="lazy" src="img/fv.png" alt="" width="375" height="570">
-            </figure>
-
+            <div class="fvWap">
+                <figure class="fv">
+                    <img loading="lazy" src="img/fv.png" alt="" width="375" height="570">
+                </figure>
+            </div>
             <div class="bgSpmainLxnLxn">
                 <section id="gift" class="secGift">
                     <h2 class="h2SecGift">
@@ -103,10 +104,13 @@ require_once('config.php'); ?>
     <div class="wapper btnIndexMainWap">
         <div class="spmainLxn spmainLxnFx">
             <div class="pore menuSpBox">
-                <div class="btnSpMenu jsbtnSpMenu off">
-                    <img class="off" src="img/btnSpMenuOff.svg" alt="" width="326" height="27">
-                    <img class="on" src="img/btnSpMenuOn.svg" alt="" width="326" height="27">
+                <div class="btnSpMenuWap">
+                    <div class="btnSpMenu jsbtnSpMenu off">
+                        <img class="off" src="img/btnSpMenuOff.svg" alt="" width="326" height="27">
+                        <img class="on" src="img/btnSpMenuOn.svg" alt="" width="326" height="27">
+                    </div>
                 </div>
+
                 <nav class="bg_fff menuSpBoxNav jsmenuSpBoxNav">
                     <div class="bg_DC0B28 brdmenuSpBoxNav"></div>
                     <ul class="ulMenuSpBoxNav">
