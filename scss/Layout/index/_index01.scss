@@ -65,6 +65,7 @@ div#pageTop {
 .fv{
     @include mi.ontenerWidth(375 , 289);
     margin: 0 auto;
+    opacity: 0
 }
 .spmainLxnTop {
     @include mi.ontenerWidth(1200, 375);
