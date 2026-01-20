@@ -771,6 +771,7 @@ div#pageTop {
 .fv {
   width: 289px;
   margin: 0 auto;
+  opacity: 0;
 }
 @media screen and (max-width: 1199px) {
   .fv {

@@ -89,13 +89,11 @@ require_once('config.php'); ?>
                         <li class="liSecGift">
                             <img loading="lazy" src="img/liSecGift03_07.png" alt="" width="375" height="635">
                         </li>
-                        <li class="liSecGift">
-                            <img loading="lazy" src="img/liSecGift03_08.png" alt="" width="375" height="">
-                        </li>
+
                     </ul>
                 </section>
                 <figure class="lastPref">
-                     <img loading="lazy" src="img/lastPref.png" alt="" width="375" height="110">
+                     <img loading="lazy" src="img/lastimage.png" alt="" width="375" height="110">
                 </figure>
             </div>
         </div>
