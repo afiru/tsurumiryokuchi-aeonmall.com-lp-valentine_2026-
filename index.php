@@ -94,6 +94,9 @@ require_once('config.php'); ?>
                         </li>
                     </ul>
                 </section>
+                <figure class="lastPref">
+                     <img loading="lazy" src="img/lastPref.png" alt="" width="375" height="110">
+                </figure>
             </div>
         </div>
 
@@ -102,7 +105,7 @@ require_once('config.php'); ?>
 </main>
 <div class="pofixed btnIndexMain">
     <div class="wapper btnIndexMainWap">
-        <div class="spmainLxn spmainLxnFx">
+        <div class="spmainLxnFx">
             <div class="pore menuSpBox">
                 <div class="btnSpMenuWap">
                     <div class="btnSpMenu jsbtnSpMenu off">
@@ -115,22 +118,22 @@ require_once('config.php'); ?>
                     <div class="bg_DC0B28 brdmenuSpBoxNav"></div>
                     <ul class="ulMenuSpBoxNav">
                         <li class="liMenuSpBoxNav">
-                            <a href="#code" class="d_block btnMenuSpBoxNav">
+                            <a href="#gift" class="d_block btnMenuSpBoxNav">
                                 <img src="img/btnMenuSpBoxNav01.svg" alt="" width="335" height="33">
                             </a>
                         </li>
                         <li class="liMenuSpBoxNav">
-                            <a href="#collection" class="d_block btnMenuSpBoxNav">
+                            <a href="#party" class="d_block btnMenuSpBoxNav">
                                 <img src="img/btnMenuSpBoxNav02.svg" alt="" width="335" height="33">
                             </a>
                         </li>
                         <li class="liMenuSpBoxNav">
-                            <a href="#date" class="d_block btnMenuSpBoxNav">
+                            <a href="#sweets" class="d_block btnMenuSpBoxNav">
                                 <img src="img/btnMenuSpBoxNav03.svg" alt="" width="335" height="33">
                             </a>
                         </li>
                         <li class="liMenuSpBoxNav">
-                            <a href="#casual" class="d_block btnMenuSpBoxNav">
+                            <a href="#pageTop" class="d_block btnMenuSpBoxNav">
                                 <img src="img/btnMenuSpBoxNav04.svg" alt="" width="335" height="33">
                             </a>
                         </li>

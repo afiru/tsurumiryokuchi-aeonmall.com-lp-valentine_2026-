@@ -12,11 +12,18 @@ div#pageTop {
 }
 
 .indexMain {
+    @include mi.paddingPercent(1920, 0, 0, 70, 0);
     background: url(../img/indexMainPc.png) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     z-index: -2;
+    @include mi.mq(tab) {
+        padding: 0% 0% 5.64% 0%;
+    }
+    @include mi.mq(sp) {
+    @include mi.paddingPercent(375, 0, 0, 70, 0);
+    }
 }
 
 .indexMainFx {}
@@ -40,7 +47,7 @@ div#pageTop {
     height: 100vh;
 }
 
-.spmainLxn {
+.spmainLxnFx {
     @include mi.paddingPercent(1200, 10, 0, 10, 0);
     @include mi.ontenerWidth(1200, 375);
     position: relative;
@@ -106,11 +113,11 @@ div#pageTop {
 }
 .btnSpMenuWap{
     @include mi.ontenerWidth(375, 355);
-    @include mi.paddingPercent(375, 18, 0, 18, 0);
+    @include mi.paddingPercent(375, 12, 0, 12, 0);
     margin: auto;
     border-radius: 5px 5px 0 0;
     background: #fff;
-    @include mi.mq(sp) {
+    @include mi.mq(tab) {
         width: 100%;
     }
 }
@@ -150,22 +157,33 @@ div#pageTop {
 .menuSpBoxNav {
     width: 100%;
     background: #fff;
-    @include mi.paddingPercent(355, 0, 0, 25, 0);
+    @include mi.paddingPercent(355, 0, 0, 13, 0);
     display: none;
     transition-duration: 0.5s;
 }
 
 .ulMenuSpBoxNav {
 @include mi.marginPercent(355, 25,auto ,0 ,auto );
-@include mi.ontenerWidth(355 , 295 );
+@include mi.ontenerWidth(355 , 326 );
+@include mi.mq(sp) {
+        margin-top: 7%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+}
 }
 
 .liMenuSpBoxNav {
     &:nth-child(n + 2) {
-        @include mi.marginPercent(300, 17, auto, 0, auto);
+        @include mi.marginPercent(300, 20, auto, 0, auto);
+    }
+     &:last-child {
+        @include mi.marginPercent(300, 13, auto, 0, auto);
     }
 }
-
+.btnMenuSpBoxNav{
+    @include mi.ontenerWidth(326, 335);
+}
 .btnIndexMainFx {
     @include mi.marginPercent(375, 12, auto, 0, auto);
 

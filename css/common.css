@@ -666,11 +666,38 @@ div#pageTop {
 }
 
 .indexMain {
+  padding-top: 0px;
+  padding-bottom: 70px;
+  padding-left: 0px;
+  padding-right: 0px;
   background: url(../img/indexMainPc.png) no-repeat center top;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   z-index: -2;
+}
+@media screen and (max-width: 1199px) {
+  .indexMain {
+    padding: 0% 0% 3.64% 0%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .indexMain {
+    padding: 0% 0% 5.64% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .indexMain {
+    padding-top: 0px;
+    padding-bottom: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1199px) {
+  .indexMain {
+    padding: 0% 0% 18.66% 0%;
+  }
 }
 
 .picIndexMainLxn {
@@ -701,7 +728,7 @@ div#pageTop {
   }
 }
 
-.spmainLxn {
+.spmainLxnFx {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 0px;
@@ -711,17 +738,17 @@ div#pageTop {
   background: linear-gradient(90deg, rgba(255, 98, 125, 0.79) 0%, rgba(251, 117, 150, 0.79) 100%);
 }
 @media screen and (max-width: 1199px) {
-  .spmainLxn {
+  .spmainLxnFx {
     padding: 0.83% 0% 0.83% 0%;
   }
 }
 @media screen and (max-width: 1199px) {
-  .spmainLxn {
+  .spmainLxnFx {
     width: 31.25%;
   }
 }
 @media screen and (max-width: 767px) {
-  .spmainLxn {
+  .spmainLxnFx {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 0px;
@@ -730,7 +757,7 @@ div#pageTop {
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1199px) {
-  .spmainLxn {
+  .spmainLxnFx {
     padding: 2.66% 0% 2.66% 0%;
   }
 }
@@ -811,8 +838,8 @@ div#pageTop {
 
 .btnSpMenuWap {
   width: 355px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 0px;
   padding-right: 0px;
   margin: auto;
@@ -826,10 +853,10 @@ div#pageTop {
 }
 @media screen and (max-width: 1199px) {
   .btnSpMenuWap {
-    padding: 4.8% 0% 4.8% 0%;
+    padding: 3.2% 0% 3.2% 0%;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .btnSpMenuWap {
     width: 100%;
   }
@@ -878,7 +905,7 @@ div#pageTop {
   width: 100%;
   background: #fff;
   padding-top: 0px;
-  padding-bottom: 25px;
+  padding-bottom: 13px;
   padding-left: 0px;
   padding-right: 0px;
   display: none;
@@ -886,7 +913,7 @@ div#pageTop {
 }
 @media screen and (max-width: 1199px) {
   .menuSpBoxNav {
-    padding: 0% 0% 7.04% 0%;
+    padding: 0% 0% 3.66% 0%;
   }
 }
 
@@ -895,7 +922,7 @@ div#pageTop {
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  width: 295px;
+  width: 326px;
 }
 @media screen and (max-width: 1199px) {
   .ulMenuSpBoxNav {
@@ -907,22 +934,53 @@ div#pageTop {
 }
 @media screen and (max-width: 1199px) {
   .ulMenuSpBoxNav {
-    width: 83.09%;
+    width: 91.83%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ulMenuSpBoxNav {
+    margin-top: 7%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 .liMenuSpBoxNav:nth-child(n+2) {
-  margin-top: 17px;
+  margin-top: 20px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1199px) {
   .liMenuSpBoxNav:nth-child(n+2) {
-    margin-top: 5.66%;
+    margin-top: 6.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+.liMenuSpBoxNav:last-child {
+  margin-top: 13px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1199px) {
+  .liMenuSpBoxNav:last-child {
+    margin-top: 4.33%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.btnMenuSpBoxNav {
+  width: 335px;
+}
+@media screen and (max-width: 1199px) {
+  .btnMenuSpBoxNav {
+    width: 102.76%;
   }
 }
 
