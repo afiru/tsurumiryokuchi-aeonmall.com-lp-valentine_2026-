@@ -3,17 +3,28 @@
 
 <head>
   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-53F272X');</script>
-<!-- End Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-53F272X');
+  </script>
+  <!-- End Google Tag Manager -->
 
   <?php
-  $title          = "見せたくなるほど、可愛い冬。Winter Fashion2025- イオンモール津南公式ホームページ";
-  $keyword        = "冬服,2025,レディース,イオンモール津南,津南,冬コーデ,30代,40代,キッズ,クリスマス,デート,コーデ";
-  $description    = "2025冬の最旬コーデをポイント解説付きで分かりやすく大特集！『クリスマスデート』や『オフィスカジュアル』『冬旅コーデ』などシーン別でご紹介。暖かさと私らしさを叶える冬をここから。";
+  $title          = "Joyfulバレンタイン 2026-イオンモール鶴見緑地";
+  $keyword        = "イオンモール鶴見緑地,バレンタイン,バレンタインチョコ,バレンタインギフト,チョコスイーツ,バレンタイン2026";
+  $description    = "バレンタイン最新おすすめギフト・スイーツを高級感のあるものからお手軽ギフトまで分かりやすく大特集！また、お友達や家族みんなで一緒にバレンタインを楽しむパーティ特集も！2026年は過ごすを楽しむバレンタインを。";
   $thumbs         = "img/og.jpg";
   $metaThumbs     = "";
   $favicon        = "";
@@ -65,7 +76,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body id="body" class="body">
   <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53F272X"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53F272X" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <div class="wap" id="pageTop">
